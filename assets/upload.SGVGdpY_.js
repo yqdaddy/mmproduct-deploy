@@ -1,0 +1,1 @@
+const o=20971520,r=104857600,t="JPG/PNG/GIF/WebP";function e(o){return o<1024?`${o}B`:o<1048576?`${(o/1024).toFixed(1)}KB`:`${(o/1048576).toFixed(1)}MB`}function n(r){return r>o?{ok:!1,error:"图片大小不能超过 20MB"}:{ok:!0}}export{t as I,o as M,r as a,n as c,e as f};
